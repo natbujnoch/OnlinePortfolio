@@ -46,7 +46,7 @@ const AboutSection = () => {
       <div className="my-12 pb-12 md:pt-16 md:pb-48">
         <h1 className="text-center font-bold text-4xl">
           About Me
-          <hr className="w-6 h-1 mx-auto my-4 bg-red-500 dark:bg-blue-500 border-0 rounded"></hr>
+          <hr className="w-6 h-1 mx-auto my-4 bg-red-500 dark:bg-[#0000ff] border-0 rounded"></hr>
         </h1>
 
         <div className="flex flex-col space-y-10 items-stretch justify-center align-top md:space-x-10 md:space-y-0 md:p-4 md:flex-row md:text-left">
@@ -56,9 +56,9 @@ const AboutSection = () => {
             </h1>
             <p className="text-xl">
               Hi, my name is Natalie and I am a{" "}
-              <span className="font-bold text-red-500 dark:text-blue-500">{"highly ambitious"}</span>,
-              <span className="font-bold text-red-500 dark:text-blue-500">{" self-motivated"}</span>, and
-              <span className="font-bold text-red-500 dark:text-blue-500">{" driven"}</span> web developer
+              <span className="font-bold text-red-500 dark:text-[#0000ff]">{"highly ambitious"}</span>,
+              <span className="font-bold text-red-500 dark:text-[#0000ff]">{" self-motivated"}</span>, and
+              <span className="font-bold text-red-500 dark:text-[#0000ff]">{" driven"}</span> web developer
               based in Dallas, TX.
             </p>
             <br />
@@ -77,7 +77,7 @@ const AboutSection = () => {
             <br />
             <p className="text-xl">
               I believe that you should{" "}
-              <span className="font-bold text-red-500 dark:text-blue-500">
+              <span className="font-bold text-red-500 dark:text-[#0000ff]">
                 never stop growing
               </span>{" "}
               and that&#39;s what I strive to do, I have a passion for

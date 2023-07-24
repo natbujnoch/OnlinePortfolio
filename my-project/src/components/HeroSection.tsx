@@ -26,7 +26,7 @@ const HeroSection = () => {
           <h1 className="text-4xl font-bold mt-6 md:mt-0 md:text-7xl">Hi, I&#39;m Natalie!</h1>
           <p className="text-lg mt-4 mb-6 md:text-2xl">
             I&#39;m a{" "}
-            <span className="font-semibold text-red-600 dark:text-blue-600">
+            <span className="font-semibold text-red-600 dark:text-[#0000ff]">
               web developer{" "}
             </span>
             based in Dallas, TX. Working towards creating software that
@@ -34,7 +34,7 @@ const HeroSection = () => {
           </p>
           <Link
             to="projects"
-            className="text-neutral-100 font-semibold px-6 py-3 bg-red-600 dark:bg-blue-600 rounded shadow hover:bg-red-700 hover:dark:bg-blue-700"
+            className="text-neutral-100 font-semibold px-6 py-3 bg-red-600 dark:bg-[#0000ff] rounded shadow hover:bg-red-700 hover:dark:bg-[#0000ff]"
             activeClass="active"
             spy={true}
             smooth={true}

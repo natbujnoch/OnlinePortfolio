@@ -37,7 +37,7 @@ const ProjectsSection = () => {
     <section id="projects">
       <h1 className="my-10 text-center font-bold text-4xl">
         Projects
-        <hr className="w-6 h-1 mx-auto my-4 bg-red-500 dark:bg-blue-500 border-0 rounded"></hr>
+        <hr className="w-6 h-1 mx-auto my-4 bg-red-500 dark:bg-[#0000ff] border-0 rounded"></hr>
       </h1>
 
       <div className="flex flex-col space-y-28">
