@@ -8,17 +8,17 @@ module.exports = {
     async redirects() {
       return [
         //triggers maintenance mode
-        {
-          source: "/((?!maintenance).*)",
-          destination: "/maintenance.html",
-          permanent: false, 
-        },
-        //triggers normal mode
         // {
-        //     source: "/maintenance.html",
-        //     destination: "/",
-        //     permanent: false,
-        //   },
+        //   source: "/((?!maintenance).*)",
+        //   destination: "/maintenance.html",
+        //   permanent: false, 
+        // },
+        //triggers normal mode
+        {
+            source: "/maintenance.html",
+            destination: "/",
+            permanent: false,
+          },
       ];
     },
   };
